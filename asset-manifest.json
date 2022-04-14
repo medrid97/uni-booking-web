@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/uni-booking-web/static/css/main.6284d3f3.css",
+    "main.js": "/uni-booking-web/static/js/main.0c9add93.js",
+    "index.html": "/uni-booking-web/index.html",
+    "main.6284d3f3.css.map": "/uni-booking-web/static/css/main.6284d3f3.css.map",
+    "main.0c9add93.js.map": "/uni-booking-web/static/js/main.0c9add93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6284d3f3.css",
+    "static/js/main.0c9add93.js"
+  ]
+}
