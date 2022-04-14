@@ -1,0 +1,250 @@
+:root {
+    --blue-light: #009fdf;
+    --blue-dark: #001642;
+    --yellow: #ffff00;
+    --grey: #ebebeb;
+    --grey-light: #ebebeb55;
+    --grey-dark: #444444;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-right: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top-bar {
+    height: 55px;
+    background-color: var(--blue-dark);
+    color: var(--grey);
+    font-weight: 600;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.side-bar {
+    background: var(--blue-dark);
+    color: var(--grey);
+    min-width: 260px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+}
+
+.side-title {
+    padding: 5px 10px;
+    margin: 0px;
+    /*border-bottom: 1px solid var(--grey-light);*/
+}
+
+.input {
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--grey);
+    border-radius: 0px;
+}
+
+.textarea {
+    resize: vertical;
+}
+
+.input:focus {
+    border-radius: 0px;
+    outline: none;
+    border: 2px solid var(--blue-dark);
+}
+
+.login {
+    padding: 50px 20px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid var(--grey);
+    text-align: center;
+}
+
+.login a {
+    margin-bottom: 15px;
+    color: #1e1e1e;
+}
+
+.login button {
+    color: var(--grey);
+    background-color: var(--blue-dark);
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: var(--blue-light);
+    color: var(--blue-dark);
+}
+
+.spinner {
+    height: 30px;
+    width: 30px;
+    border: 5px solid var(--blue-dark);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 3s infinite ease-in-out;
+}
+
+.alert {
+    color: red;
+}
+
+.loading {
+    margin: auto;
+    align-items: center;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.home {
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.event-card {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid var(--grey);
+}
+
+.event-name {
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.event-nfos {
+    font-weight: 400;
+    color: #777777;
+    margin: 0px;
+}
+
+.event-description {
+    margin: 7px 0px;
+}
+
+.event-joined {
+    margin: 5px 0px;
+}
+
+.event-btn {
+    color: var(--grey);
+    background-color: var(--blue-dark);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.event-btn:hover {
+    background-color: var(--blue-light);
+}
+
+.request {
+    padding: 10px 20px;
+    flex: 1;
+}
+
+.nav-item {
+    padding: 10px 10px;
+    font-size: 1.1em;
+    color: var(--grey);
+    /*border-left: 4px solid var(--grey);*/
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.nav-item:hover {
+    transform: translateX(5px);
+    background: var(--blue-light);
+    border-left-color: transparent;
+}
+
+.nav-dash {
+    margin: 20px 0px 5px 10px;
+    padding: 5px 0px;
+    border-bottom: 1px solid var(--grey-light);
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.nav-section {
+    padding-bottom: 5px;
+}
+
+.unauth {
+    flex: 1;
+    align-self: center;
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid var(--grey);
+    padding: 25px;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-color: var(--blue-dark);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.h {
+    margin-bottom: 10px;
+}
+
+.p {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.venue-name {
+    margin: 0px;
+}
+
+.danger {
+    padding: 10px 0px;
+    color: red;
+}
+.disconnect {
+    cursor: pointer;
+    margin-top: auto;
+}
