@@ -55,7 +55,7 @@ function App() {
     }, []);
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/uni-booking-web">
             <div className="app-wrapper">
                 <div className="content-wrapper">
                     <Routes>
